@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and environments
+.env
+.venv
+env/
+venv/
+ENV/
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large Model Weights (Keep local; exclude from git)
+*.pth
+*.pt
+*.keras
+*.h5
+*.ckpt
+
+# Datasets (Download via script)
+datasets/MontgomerySet/
+*.zip
+*.tar.gz
+
+# IDE settings
+.vscode/
+.idea/

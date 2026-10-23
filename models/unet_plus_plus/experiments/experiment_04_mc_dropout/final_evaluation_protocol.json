@@ -1,0 +1,13 @@
+{
+  "model": "UNet++",
+  "architecture_changed": false,
+  "checkpoint": "/content/drive/MyDrive/Lung_Segmentation_Research/UNetPlusPlus/checkpoints/run_20261022_090555/best_model.keras",
+  "inference_method": "Monte Carlo dropout",
+  "mc_passes": 20,
+  "threshold": 0.5,
+  "validation_images": 13,
+  "test_images": 15,
+  "test_set_used_for_tuning": false,
+  "status": "Protocol candidate; test evaluation pending",
+  "created_at": "2026-10-22T11:57:25"
+}

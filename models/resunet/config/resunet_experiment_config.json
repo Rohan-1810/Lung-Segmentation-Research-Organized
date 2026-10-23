@@ -1,0 +1,39 @@
+{
+    "model": "ResUNet",
+    "source_repository": "https://github.com/mhmodir/Chest-X-Ray-Image_Segmentation_ResUNet",
+    "source_notebook": "main/Chest_Xray_resunet.ipynb",
+    "framework": "PyTorch",
+    "dataset": "Famatsu123/montgomery-shenzhen-tuberculosis-cxr",
+    "dataset_subset": "MontgomerySet",
+    "total_images": 138,
+    "image_channels": 3,
+    "image_size": [
+        512,
+        512
+    ],
+    "mask_channels": 1,
+    "train_size": 110,
+    "validation_size": 13,
+    "test_size": 15,
+    "split_seed": 42,
+    "batch_size": 1,
+    "epochs": 20,
+    "optimizer": "Adam",
+    "learning_rate": 0.0001,
+    "loss": [
+        "BCEWithLogitsLoss",
+        "SoftDiceLoss",
+        "InvSoftDiceLoss"
+    ],
+    "prediction_threshold": 0.5,
+    "filters": [
+        16,
+        32,
+        64,
+        128,
+        256
+    ],
+    "final_activation": "logits during training; sigmoid for probability",
+    "mean_test_dice": 0.9679323037465414,
+    "mean_test_iou": 0.9386727412541708
+}

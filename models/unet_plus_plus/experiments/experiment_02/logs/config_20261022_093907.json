@@ -1,0 +1,20 @@
+{
+    "experiment_id": "20261022_093907",
+    "model": "UNet++",
+    "input_shape": [
+        256,
+        256,
+        1
+    ],
+    "train_samples": 110,
+    "validation_samples": 13,
+    "test_samples": 15,
+    "epochs": 20,
+    "batch_size": 2,
+    "optimizer": "Adam",
+    "learning_rate": 0.0002,
+    "loss": "BCE + per-image Dice loss",
+    "checkpoint_monitor": "val_dice_per_image",
+    "baseline_run": "run_20261022_090555",
+    "split_manifest": "/content/drive/MyDrive/Lung_Segmentation_Research/Attention_UNet/split_manifest.json"
+}

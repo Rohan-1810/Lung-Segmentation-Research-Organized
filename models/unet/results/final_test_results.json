@@ -1,0 +1,112 @@
+{
+    "model": "U-Net",
+    "input_size": "512x512",
+    "batch_size": 1,
+    "best_epoch": 17,
+    "best_validation_loss": 0.6252158421736497,
+    "test_samples": 15,
+    "mean_dice": 0.9757848699887594,
+    "mean_iou": 0.9531642238299052,
+    "best_test_case": {
+        "filename": "MCUCXR_0051_0.png",
+        "dice": 0.9856395721435547,
+        "iou": 0.9716858267784119
+    },
+    "worst_test_case": {
+        "filename": "MCUCXR_0399_1.png",
+        "dice": 0.917999267578125,
+        "iou": 0.8484275341033936
+    },
+    "per_image_results": [
+        {
+            "index": 2,
+            "filename": "MCUCXR_0051_0.png",
+            "dice": 0.9856395721435547,
+            "iou": 0.9716858267784119
+        },
+        {
+            "index": 4,
+            "filename": "MCUCXR_0022_0.png",
+            "dice": 0.985007643699646,
+            "iou": 0.9704582095146179
+        },
+        {
+            "index": 7,
+            "filename": "MCUCXR_0001_0.png",
+            "dice": 0.9846109747886658,
+            "iou": 0.9696884751319885
+        },
+        {
+            "index": 12,
+            "filename": "MCUCXR_0162_1.png",
+            "dice": 0.9826672077178955,
+            "iou": 0.9659249782562256
+        },
+        {
+            "index": 9,
+            "filename": "MCUCXR_0042_0.png",
+            "dice": 0.9823338389396667,
+            "iou": 0.9652810096740723
+        },
+        {
+            "index": 6,
+            "filename": "MCUCXR_0028_0.png",
+            "dice": 0.9818455576896667,
+            "iou": 0.9643385410308838
+        },
+        {
+            "index": 3,
+            "filename": "MCUCXR_0023_0.png",
+            "dice": 0.9804866909980774,
+            "iou": 0.96172034740448
+        },
+        {
+            "index": 13,
+            "filename": "MCUCXR_0059_0.png",
+            "dice": 0.9802968502044678,
+            "iou": 0.9613550901412964
+        },
+        {
+            "index": 11,
+            "filename": "MCUCXR_0082_0.png",
+            "dice": 0.9801918864250183,
+            "iou": 0.9611533284187317
+        },
+        {
+            "index": 0,
+            "filename": "MCUCXR_0083_0.png",
+            "dice": 0.9771174192428589,
+            "iou": 0.9552586674690247
+        },
+        {
+            "index": 14,
+            "filename": "MCUCXR_0058_0.png",
+            "dice": 0.9752044677734375,
+            "iou": 0.9516088366508484
+        },
+        {
+            "index": 8,
+            "filename": "MCUCXR_0080_0.png",
+            "dice": 0.9751611948013306,
+            "iou": 0.951526403427124
+        },
+        {
+            "index": 10,
+            "filename": "MCUCXR_0002_0.png",
+            "dice": 0.9745544791221619,
+            "iou": 0.9503717422485352
+        },
+        {
+            "index": 1,
+            "filename": "MCUCXR_0213_1.png",
+            "dice": 0.9736559987068176,
+            "iou": 0.9486643671989441
+        },
+        {
+            "index": 5,
+            "filename": "MCUCXR_0399_1.png",
+            "dice": 0.917999267578125,
+            "iou": 0.8484275341033936
+        }
+    ]
+}

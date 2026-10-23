@@ -1,0 +1,11 @@
+{
+    "experiment_name": "UNet++ Experiment 02",
+    "purpose": "Controlled follow-up to the baseline experiment",
+    "baseline_run": "run_20261022_090555",
+    "dataset": "MontgomerySet",
+    "split_manifest": "/content/drive/MyDrive/Lung_Segmentation_Research/Attention_UNet/split_manifest.json",
+    "train_images": 110,
+    "validation_images": 13,
+    "test_images": 15,
+    "status": "setup_only"
+}

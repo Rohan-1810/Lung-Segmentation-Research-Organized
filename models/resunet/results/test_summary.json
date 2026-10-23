@@ -1,0 +1,6 @@
+{
+    "test_samples": 15,
+    "mean_dice": 0.9679323037465414,
+    "mean_iou": 0.9386727412541708,
+    "threshold": 0.5
+}

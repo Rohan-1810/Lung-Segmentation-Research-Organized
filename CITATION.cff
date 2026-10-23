@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you utilize this research code or benchmark in your academic work, please cite our paper."
+title: "Comparative Evaluation of U-Net Variants for Lung Segmentation in Chest X-Ray Images"
+authors:
+  - family-names: "Placeholder"
+    given-names: "Author"
+version: 1.0.0
+date-released: 2026-10-23

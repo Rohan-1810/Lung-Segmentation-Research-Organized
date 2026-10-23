@@ -1,0 +1,20 @@
+name: lung-segmentation
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch>=2.0.0
+    - torchvision>=0.15.0
+    - tensorflow>=2.15.0
+    - keras>=3.0.0
+    - numpy>=1.23.0
+    - pandas>=2.0.0
+    - matplotlib>=3.7.0
+    - pillow>=9.5.0
+    - huggingface-hub>=0.16.0
+    - tqdm>=4.65.0
+    - jupyterlab>=4.0.0

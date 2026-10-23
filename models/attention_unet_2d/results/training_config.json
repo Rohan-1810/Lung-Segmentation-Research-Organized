@@ -1,0 +1,17 @@
+{
+  "model": "Corrected 2D Attention U-Net",
+  "source_reference": "https://github.com/aimalrehman92/Attention-U-Net-for-Lung-Segmentation-on-ChestXray-Scans",
+  "modification": "Att5 skip concatenation uses the attention-filtered features instead of the unfiltered encoder features.",
+  "image_size": 256,
+  "batch_size": 2,
+  "epochs": 20,
+  "learning_rate": 0.0002,
+  "optimizer": "Adam",
+  "loss": "CrossEntropyLoss",
+  "seed": 42,
+  "train_images": 110,
+  "validation_images": 13,
+  "test_images": 15,
+  "device": "cuda",
+  "parameters": 8744945
+}
